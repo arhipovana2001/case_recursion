@@ -1,5 +1,16 @@
+#Case-study
+#Recursion
+
+# Developers:   Arhipova A. (%),
+#               Revtova L. (%),
+import os
+import os.path
+
+
 def main():
-    print('''1. Просмотр каталога\n2. На уровень вверх\n3. На уровень вниз\n4. Количество файлов и каталогов
-5. Размер текущего каталога (в байтах)\n6. Поиск файла\n7. Выход из программы\nВыберите пункт меню:''')
-    menu = int(input())
+    path = os.getcwd()
+    print('Путь:', path)
+    path_up = path[:path.rfind('\\')]
+    
+
 main()
