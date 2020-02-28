@@ -1,8 +1,8 @@
 #Case-study
 #Recursion
 
-# Developers:   Arhipova A. (%),
-#               Revtova L. (%),
+# Developers:   Arhipova A. (60%),
+#               Revtova L. (60%),
 import os
 import os.path
 
